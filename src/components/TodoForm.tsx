@@ -10,7 +10,7 @@ export default function lista (){
             {/* (e)=> {setTarea(e.target.value) Con la función flecha espera que pase algo, en este caso a que cambie,
             esta recibiendo "e" como parametro que es donde se almacena lo que se escribe en el input y mientras cambia
             va cambiando el state */}
-            <button className="bg-blue-500 text-white px-3 py-2 rounded" onClick={()=> setTareas(()=> [...tareas, tarea])}>Enviar</button>
+            <button className="hover:bg-blue-600 bg-blue-500 text-white px-3 py-2 rounded" onClick={()=> setTareas(()=> [...tareas, tarea])}>Enviar</button>
         </div>
     )
 }
